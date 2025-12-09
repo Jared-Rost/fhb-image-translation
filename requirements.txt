@@ -1,0 +1,27 @@
+# Core dependencies (install first)
+torch
+torchvision
+numpy
+
+# Main packages
+git+https://github.com/huggingface/diffusers.git
+transformers
+accelerate
+matplotlib
+datasets
+Pillow
+tqdm
+packaging
+huggingface_hub
+wandb
+bitsandbytes
+xformers
+opencv-python
+ultralytics
+git+https://github.com/facebookresearch/segment-anything.git
+openpyxl
+tensorboard
+safetensors
+scipy
+ftfy
+seaborn
