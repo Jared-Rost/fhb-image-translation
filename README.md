@@ -50,7 +50,7 @@ Both modes utilize:
 
 ```bash
 git clone https://github.com/Jared-Rost/fhb-image-translation.git
-cd fhb_image_translation
+cd fhb-image-translation
 ```
 
 2. Install dependencies:
