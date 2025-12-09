@@ -49,7 +49,7 @@ Both modes utilize:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Jared-Rost/fhb_image_translation.git
+git clone https://github.com/Jared-Rost/fhb-image-translation.git
 cd fhb_image_translation
 ```
 
