@@ -111,7 +111,7 @@ Examples:
     preselected_parser.add_argument(
         '--darken',
         type=float,
-        default=0.3,
+        default=0.0,
         help='Darkening factor (0-1)'
     )
     preselected_parser.add_argument(
@@ -129,7 +129,7 @@ Examples:
     preselected_parser.add_argument(
         '--saturation_boost',
         type=float,
-        default=1.2,
+        default=1.0,
         help='Saturation boost factor (1.0=no change)'
     )
     preselected_parser.add_argument(

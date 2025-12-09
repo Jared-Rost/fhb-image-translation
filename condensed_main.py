@@ -47,10 +47,10 @@ class WheatInfectionPipeline:
         conditioning_image_path: Optional[str] = None,
         # Color transfer parameters
         alpha: float = 1.0,
-        darken: float = 0.3,
+        darken: float = 0.0,
         contrast_strength: float = 0.7,
-        color_temp_strength: float = 0.3,
-        saturation_boost: float = 1.2,
+        color_temp_strength: float = 0.0,
+        saturation_boost: float = 1.0,
         no_feathering: bool = False,
     ):
         """
@@ -883,7 +883,7 @@ Examples:
     preselected_parser.add_argument(
         '--darken',
         type=float,
-        default=0.3,
+        default=0.0,
         help='Darkening factor (0-1)'
     )
     preselected_parser.add_argument(
@@ -895,13 +895,13 @@ Examples:
     preselected_parser.add_argument(
         '--color_temp_strength',
         type=float,
-        default=0.3,
+        default=0.0,
         help='Color temperature matching strength (0-1)'
     )
     preselected_parser.add_argument(
         '--saturation_boost',
         type=float,
-        default=1.2,
+        default=1.0,
         help='Saturation boost factor (1.0=no change)'
     )
     preselected_parser.add_argument(
